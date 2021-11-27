@@ -4,10 +4,10 @@ import "fmt"
 
 func main() {
 	heistReady := false
-	
-  if heistReady {
+
+	if heistReady {
 		fmt.Println("Let's go!")
 	} else {
-    fmt.Println("Act normal.")
-  }
+		fmt.Println("Act normal.")
+	}
 }
