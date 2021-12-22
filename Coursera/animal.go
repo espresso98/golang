@@ -1,5 +1,5 @@
 /* 
-go run Coursera/animal.go
+go run animal.go
 > Please enter the animal name and info(type "exit" to exit): snake eat
 I eat mice.
 > Please enter the animal name and info(type "exit" to exit): snake speak
@@ -51,27 +51,27 @@ func main() {
 		}
 
 		switch name {
-		case "cow":
-			animal = cow
-		case "snake":
-			animal = snake
-		case "bird":
-			animal = bird
-		default:
-			fmt.Println("Please try again. Exit to type \"exit\"")
-			continue
+			case "cow":
+				animal = cow
+			case "snake":
+				animal = snake
+			case "bird":
+				animal = bird
+			default:
+				fmt.Println("Please try again. Exit to type \"exit\"")
+				continue
 		}
 
 		switch info {
-		case "eat":
-			animal.Eat()
-		case "move":
-			animal.Move()
-		case "speak":
-			animal.Speak()
-		default:
-			fmt.Println("Please try again. Exit to type \"exit\"")
-			continue
+			case "eat":
+				animal.Eat()
+			case "move":
+				animal.Move()
+			case "speak":
+				animal.Speak()
+			default:
+				fmt.Println("Please try again. Exit to type \"exit\"")
+				continue
 		}
 	}
 }
