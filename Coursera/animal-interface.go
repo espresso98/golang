@@ -122,25 +122,25 @@ func (a snake) Eat() {
 }
 
 func (a cow) Move() {
-	fmt.Println(a.name, a.locomotion)
+	fmt.Println(a.name, "moves by", a.locomotion+"ing")
 }
 
 func (a bird) Move() {
-	fmt.Println(a.name, a.locomotion)
+	fmt.Println(a.name, "moves by", a.locomotion+"ing")
 }
 
 func (a snake) Move() {
-	fmt.Println(a.name, a.locomotion)
+	fmt.Println(a.name, "moves by", a.locomotion+"ing")
 }
 
 func (a cow) Speak() {
-	fmt.Println(a.name, a.noise)
+	fmt.Println(a.name, "speaks", a.noise)
 }
 
 func (a bird) Speak() {
-	fmt.Println(a.name, a.noise)
+	fmt.Println(a.name, "speaks", a.noise)
 }
 
 func (a snake) Speak() {
-	fmt.Println(a.name, a.noise)
+	fmt.Println(a.name, "speaks", a.noise)
 }
