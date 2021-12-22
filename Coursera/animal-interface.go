@@ -1,7 +1,7 @@
 /*
 go run animal-interface.go
 
-Enter your request with newanimal or query or 'quit' to quit.
+Enter your request with newanimal or query or quit.
 > newanimal momoi bird
 Created it!
 Enter your request with newanimal or query or quit.
