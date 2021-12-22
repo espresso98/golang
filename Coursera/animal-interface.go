@@ -1,7 +1,7 @@
 /*
 go run animal-interface.go
 
-Enter your request with newanimal or query or 'quit' to quit.
+Enter your request with newanimal or query or quit.
 > newanimal momoi bird
 Created it!
 Enter your request with newanimal or query or quit.
@@ -65,7 +65,7 @@ func main() {
 			case "snake":
 				animals[name] = snake{name, "mice", "slither", "hsss"}
 			default:
-				fmt.Println("Wrong animal type, please try again with cow/bird/snake")
+				fmt.Println("Wrong animal type. Please try again with cow/bird/snake")
 				continue
 			}
 			fmt.Println("Created it!")
