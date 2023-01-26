@@ -1,5 +1,5 @@
 // Variadic functions can be called with any number of trailing arguments.
-// Reference: [https://gobyexample.com/variadic-functions](https://gobyexample.com/variadic-functions)
+// [https://gobyexample.com/variadic-functions](https://gobyexample.com/variadic-functions)
 package main
 
 import "fmt"
