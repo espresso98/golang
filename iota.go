@@ -13,12 +13,14 @@ const (
 )
 
 func main() {
-	fmt.Println(KB, MB, GB)
+	fmt.Println("KB =", KB)
+	fmt.Println("MB =", MB)
+	fmt.Println("GB =", GB)
 }
 
-// KB =  1024
-// MB =  1048576
-// GB =  1073741824
+// KB = 1024
+// MB = 1048576
+// GB = 1073741824
 
 // const (
 // 	January Month = 1 + iota
