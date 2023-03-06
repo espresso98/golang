@@ -1,5 +1,6 @@
 # golang
 - [Go Standard library](https://pkg.go.dev/std)<br>
+- [The Go Programming Language Specification](https://go.dev/ref/spec)<br>
 - [Go by Example](https://gobyexample.com/)<br>
 - [Golang By Example](https://golangbyexample.com/exported-unexported-fields-struct-go/)<br>
 - [GOSAMPLES](https://gosamples.dev/read-user-input/)<br>
